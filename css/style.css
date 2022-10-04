@@ -55,10 +55,6 @@ body {
     color: var(--accent-color);
 }
 
-.header-contact {
-    list-style: none;
-}
-
 .email {
     font-size: 14px;
     font-weight: 500;
@@ -120,10 +116,6 @@ body {
     background-color: var(--active-color);
 }
 
-.benefits-container {
-    list-style: none;
-}
-
 .benefit-name {
     font-weight: 700;
     font-size: 14px;
@@ -149,14 +141,6 @@ body {
 
 .hidden-title {
     display: none;
-}
-
-.work-examples-container {
-    list-style: none;
-}
-
-.team-container {
-    list-style: none;
 }
 
 .member-name {
