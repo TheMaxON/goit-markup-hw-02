@@ -12,7 +12,11 @@ body {
     color: var(--primary-color);
 }
 
-.navbar {
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.no-list-style {
     list-style: none;
 }
 
@@ -23,7 +27,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: black;
-    text-decoration: none;
 }
 
 .logo-white {
@@ -33,7 +36,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: white;
-    text-decoration: none;
 }
 
 .logo-accent {
@@ -41,11 +43,11 @@ body {
 }
 
 .navbar-element {
-    font-size: 14px;
     font-weight: 500;
-    line-height: 1.17;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .navbar-element:hover,
@@ -62,7 +64,6 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
-    text-decoration: none;
 }
 
 .email:hover,
@@ -75,7 +76,6 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
-    text-decoration: none;
 }
 
 .tel:hover,
@@ -104,6 +104,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
 
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -123,7 +124,7 @@ body {
     list-style: none;
 }
 
-.benefit h3 {
+.benefit-name {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -131,7 +132,7 @@ body {
     text-transform: uppercase;
 }
 
-.benefit p {
+.benefit-description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -158,14 +159,14 @@ body {
     list-style: none;
 }
 
-.team-member h3 {
+.member-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.team-member p {
+.member-job {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -177,10 +178,27 @@ footer {
 }
 
 .address {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: white;
+}
+
+.footer-email {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .filter-btn {
@@ -188,6 +206,7 @@ footer {
     border-radius: 4px;
     cursor: pointer;
 
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -203,17 +222,16 @@ footer {
 
 .portfolio-item {
     color: var(--primary-color);
-    text-decoration: none;
 }
 
-.portfolio-item h3 {
+.portfolio-item-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio-item p {
+.portfolio-item-type {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
